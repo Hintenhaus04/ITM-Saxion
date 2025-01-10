@@ -1,0 +1,15 @@
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.exe
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.deps.json
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.runtimeconfig.json
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.dll
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.pdb
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.AssemblyInfoInputs.cache
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.AssemblyInfo.cs
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.csproj.CoreCompileInputs.cache
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.sourcelink.json
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.dll
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\refint\EasyDevOps.dll
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.pdb
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.genruntimeconfig.cache
+C:\Users\Wouta\Documents\GitHub\ITM-Saxion\frontend\EasyDevOps\obj\Debug\net9.0\ref\EasyDevOps.dll
