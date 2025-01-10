@@ -24,3 +24,5 @@ DevOps-principes en -tooling binnen een fictieve organisatie genaamd ITM
 1. **Kloon de repository**:
    ```bash
    git clone https://github.com/Hintenhaus04/ITM-Saxion.git
+
+2. **gebruik het script EasyDevOps.ps1**
