@@ -1,28 +1,30 @@
 # EasyDevOps – ITM Project
 
-Welkom bij het EasyDevOps-project voor ITM! Dit is een demo- en praktijkproject gericht op 
-DevOps-principes en -tooling binnen een fictieve organisatie genaamd ITM
+Welcome to the **EasyDevOps** project for **ITM**! This is a demo and practice project focused on DevOps principles and tools within a fictional organization called **ITM**.
 
-## Inhoud
+## Contents
 
 - **frontend/**  
-  Bevat de (optionele) front-endcomponenten, bijvoorbeeld een .NET-webapp of console-app
+  Contains the (optional) front-end components, for example a .NET web app or a console app.
+
 - **backend/**  
-  Bevat de server-side code of API-componenten
+  Contains the server-side code or API components.  
+  - Here you might find a `Dockerfile` or other deployment configurations.
+
 - **scripts/**  
-  Bevat scripts voor installatie, configuratie of deployment
+  Contains scripts for installation, configuration, or deployment.  
+  - **EasyDevOps.ps1**: A PowerShell script to help automate building, testing, and deploying the project. It may include steps to configure Docker, Jenkins, or Azure DevOps.
 
-## Kenmerken
+## Features
 
-- **Doel**: Leren en demonstreren hoe Development (Dev) en Operations (Ops) samen kunnen werken 
-  binnen één project
-- **Tools**: Git, .NET, Docker, Jenkins, Azure DevOps of andere DevOps-gerelateerde tools
-- **Sprints**: Ontwikkeling gebeurt in kleine iteraties, gekoppeld aan de moduleopdrachten
+- **Goal**: Learn and show how Development (Dev) and Operations (Ops) can work together in a single project.  
+- **Tools**: Git, .NET, Docker, Jenkins, Azure DevOps, or other DevOps-related tools.  
+- **Sprints**: Development happens in small steps, linked to module assignments.
 
-## Hoe te gebruiken?
+## How to use?
 
-1. **Kloon de repository**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Hintenhaus04/ITM-Saxion.git
 
-2. **gebruik het script EasyDevOps.ps1**
+2. **Use the script EasyDevOps.ps1 (dont forget to change the repo in the script)**
