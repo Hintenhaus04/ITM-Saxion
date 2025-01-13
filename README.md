@@ -1,7 +1,5 @@
 # EasyDevOps – ITM Project
 
-dit is een verandering om te laten zien dat github desktop werkt!
-
 Welkom bij het EasyDevOps-project voor ITM! Dit is een demo- en praktijkproject gericht op 
 DevOps-principes en -tooling binnen een fictieve organisatie genaamd ITM
 
