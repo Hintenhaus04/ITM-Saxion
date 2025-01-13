@@ -1,0 +1,81 @@
+# .NET build artifacts for frontend/easy-devops
+frontend/EasyDevOps/bin/Debug/
+frontend/EasyDevOps/obj/Debug/
+
+# General .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core specific files
+wwwroot/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# General files
+*.log               # Log files
+*.bak               # Backup files
+*.tmp               # Temporary files
+*.swp               # Vim swap files
+*.orig              # Merge conflict leftovers
+*.old               # Old versions of files
+*.gz                # Gzip compressed files
+*.zip               # ZIP archives
+*.tar               # TAR archives
+*.7z                # 7-Zip archives
+*.rar               # RAR archives
+
+# Node.js projects (if used in the frontend)
+node_modules/       # Node.js dependencies
+npm-debug.log*      # NPM error logs
+yarn-error.log      # Yarn error logs
+package-lock.json   # Lock file, if not needed
+
+# Azure DevOps/CI/CD files
+*.coverage          # Coverage files
+*.coveragexml       # Coverage XML files
+testResults/        # Test results
+artifacts/          # Build artifacts
+
+# Temporary and debugging files
+*.tlog              # Build log files
+*.ilk               # Incremental linker files
+*.pdb               # Program database (debug symbols)
+*.rsp               # Response files
+*.rspfile           # Extra linker info
+
+# IDE-specific files
+*.sln.iml           # IntelliJ IDEA settings
+*.lock.json         # Lock files
+**/.classpath       # Eclipse project files
+**/.project         # Eclipse project files
+**/.settings/       # Eclipse settings
+**/.metadata/       # Workspace metadata
+
+# Cloud and deployment
+terraform.tfstate   # Terraform state files
+*.env               # Environment variable files
+*.key               # Keys and certificates
+*.pem               # Private keys
+*.crt               # Certificates
