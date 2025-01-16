@@ -22,16 +22,12 @@ pipeline {
 
         stage('Security Test - ZAP') {
             steps {
-                // Hier roep je ZAP aan. 
-                // Vervang <url-van-je-app> door de werkelijke endpoint.
-                // En pas het pad aan naar waar zap.bat staat.
                 bat """
-                ""C:/Program Files/ZAP/Zed Attack Proxy/zap.bat"" 
-                  -cmd 
-                  -quickscan 
-                  http://192.168.146.128:8080
-                  -config logfile=zap-scan.log
-                """
+        "C:/Program Files/ZAP/Zed Attack Proxy/zap.bat" -cmd -quickscan http://192.168.146.128:8080 -config logfile=zap-scan.log
+        """
+            }
+        }
+
             }
         }
     }
