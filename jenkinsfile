@@ -1,20 +1,41 @@
 pipeline {
     agent any
+
     stages {
         stage('Checkout') {
             steps {
-                echo "check"
+                checkout scm
             }
         }
+
         stage('Build') {
             steps {
-                echo "build"
+                bat 'dotnet build C:\Users\Administrator\ITM-Saxion\frontend\EasyDevOps\EasyDevOps.csproj'
             }
         }
+
         stage('Test') {
             steps {
-                echo "test"
+                bat 'dotnet test C:\Users\Administrator\ITM-Saxion\frontend\EasyDevOps\EasyDevOps.csproj'
             }
+        }
+
+        stage('Security Test') {
+            steps {
+                echo 'Security scan placeholder'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline is voltooid (build, test en security-check).'
+        }
+        success {
+            echo 'De pipeline is succesvol afgerond!'
+        }
+        failure {
+            echo 'Er is iets misgegaan in één van de stages.'
         }
     }
 }
