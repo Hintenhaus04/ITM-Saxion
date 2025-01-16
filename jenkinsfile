@@ -43,4 +43,3 @@ pipeline {
             echo 'Er is iets misgegaan in één van de stages.'
         }
     }
-}
