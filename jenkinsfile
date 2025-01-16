@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'dotnet build C:\Users\Administrator\ITM-Saxion\frontend\EasyDevOps\EasyDevOps.csproj'
+                bat 'dotnet build C:/Users/Administrator/ITM-Saxion/frontend/EasyDevOps/EasyDevOps.csproj'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'dotnet test C:\Users\Administrator\ITM-Saxion\frontend\EasyDevOps\EasyDevOps.csproj'
+                bat 'dotnet test C:/Users/Administrator/ITM-Saxion/frontend/EasyDevOps/EasyDevOps.csproj'
             }
         }
 
