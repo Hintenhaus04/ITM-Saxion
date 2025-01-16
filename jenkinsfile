@@ -25,9 +25,7 @@ pipeline {
                 bat """
         "C:/Program Files/ZAP/Zed Attack Proxy/zap.bat" -cmd -quickscan http://192.168.146.128:8080 -config logfile=zap-scan.log
         """
-            }
-        }
-
+                }
             }
         }
     }
