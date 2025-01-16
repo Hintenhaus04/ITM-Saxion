@@ -10,29 +10,40 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'dotnet build C:/Users/Administrator/ITM-Saxion/frontend/EasyDevOps/EasyDevOps.csproj'
+                bat 'dotnet build'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'dotnet test C:/Users/Administrator/ITM-Saxion/frontend/EasyDevOps/EasyDevOps.csproj'
+                bat 'dotnet test'
             }
         }
 
-        stage('Security Test') {
+        stage('Security Test - ZAP') {
             steps {
-                echo 'Security scan placeholder'
+                // Hier roep je ZAP aan. 
+                // Vervang <url-van-je-app> door de werkelijke endpoint.
+                // En pas het pad aan naar waar zap.bat staat.
+                bat """
+                ""C:/Program Files/ZAP/Zed Attack Proxy/zap.bat"" 
+                  -cmd 
+                  -quickscan 
+                  http://192.168.146.128:8080
+                  -config logfile=zap-scan.log
+                """
             }
         }
     }
 
     post {
         always {
-            echo 'Pipeline is voltooid (build, test en security-check).'
+            echo 'Pipeline klaar (inclusief ZAP-scan).'
+            // Archive the logs
+             archiveArtifacts artifacts: 'zap-scan.log'
         }
         success {
-            echo 'De pipeline is succesvol afgerond!'
+            echo 'Alle stages geslaagd, inclusief security scan!'
         }
         failure {
             echo 'Er is iets misgegaan in één van de stages.'
