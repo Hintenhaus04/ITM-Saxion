@@ -30,7 +30,7 @@ pipeline {
     post {
         always {
             echo 'Pipeline klaar (inclusief ZAP-scan).'
-            archiveArtifacts artifacts: 'zap-scan.log'
+            archiveArtifacts artifacts: '**/bin/**/*.dll, **/bin/**/*.exe'
         }
         success {
             echo 'Alle stages geslaagd, inclusief security scan!'
