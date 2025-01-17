@@ -23,7 +23,6 @@ pipeline {
         stage('Security Test - ZAP') {
             steps {
                 echo "security test...."
-                }
             }
         }
     }
@@ -31,8 +30,7 @@ pipeline {
     post {
         always {
             echo 'Pipeline klaar (inclusief ZAP-scan).'
-            // Archive the logs
-             archiveArtifacts artifacts: 'zap-scan.log'
+            archiveArtifacts artifacts: 'zap-scan.log'
         }
         success {
             echo 'Alle stages geslaagd, inclusief security scan!'
@@ -41,3 +39,4 @@ pipeline {
             echo 'Er is iets misgegaan in één van de stages.'
         }
     }
+}
